@@ -150,3 +150,31 @@ background-color: var(--cor-hover);
    }
 
 }
+
+@media (max-width: 440px) {
+   .cabecalho{
+      padding: 10% 0 0 10%;
+      
+   }
+
+   .cabecalho__menu{
+      justify-content: center;
+   }
+
+   .apresentacao {
+      flex-direction: column-reverse;
+      padding: 10%;
+   }
+
+   .apresentacao__conteudo {
+      width: auto;
+      padding-left: 10%;
+      font-size: 0.5rem;
+      font-weight: 100;
+   }
+
+   .rodape {
+      width: 100%;
+   }
+
+}
