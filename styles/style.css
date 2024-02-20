@@ -67,7 +67,6 @@ body{
  .apresentacao__conteudo__texto {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
-    text-align: justify;
     }
  .apresentacao__conteudo__texto a{
    text-decoration: none;
@@ -114,6 +113,12 @@ background-color: var(--cor-hover);
    width: 50%;
 }
 
+
+.titulo__empresa {
+   color: var(--cor-terciaria);
+   font-weight: 600;
+}
+
 .rodape {
    color: var(--cor-primaria);
    background-color: var(--cor-terciaria);
@@ -125,11 +130,6 @@ background-color: var(--cor-hover);
 }
 
 
-
-.titulo__empresa {
-   color: var(--cor-terciaria);
-   font-weight: 600;
-}
 
 @media (max-width: 1200px) {
    .cabecalho{
